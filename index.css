@@ -3,6 +3,7 @@
         padding: 0px;
         list-style: none;
         font-family: 'Arial', sans-serif;
+        font-size: 16pt;
     }
     
     a {
@@ -46,35 +47,32 @@
         .menu {
             padding-top: 10px;
         }
-        #firstSectionFooter{
-          display: flex;
-          flex-direction: column;
+        #firstSectionFooter {
+            display: flex;
+            flex-direction: column;
         }
-        #imgFooter{
-          display: flex;
-          width: auto;
+        #imgFooter {
+            display: flex;
+            width: auto;
         }
-        #formDiv{
-          margin: 15px;
+        #formDiv {
+            margin: 15px;
         }
-        footer{
-          height: auto;
+        footer {
+            height: auto;
         }
-        #message{
-          width: 183px;
-          height: 50px;
+        #message {
+            width: 183px;
+            height: 50px;
         }
-  
-        #subtitleFooter h3{
-          font-size: 12pt;
+        #subtitleFooter h3 {
+            font-size: 12pt;
         }
-        #secondSectionFooter p{
-          font-size: 10pt
+        #secondSectionFooter p {
+            font-size: 10pt
         }
     }
-
     /*FIM-HEADER*/
-
     /*SEÇÃO*/
 #main-container {
     margin: 30px 0;

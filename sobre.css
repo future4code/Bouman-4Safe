@@ -1,0 +1,31 @@
+.mainsobre {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionsobre {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#imgsobre {
+    max-width: 50%;
+}
+
+@media (max-width: 450px) {
+    #imgsobre {
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
