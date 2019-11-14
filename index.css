@@ -145,24 +145,18 @@
   
   /*FOOTER*/
 
-  *{
-    margin: 0%;
-    padding: 0%;
-}
-
 footer{
     background-color: #3b4f66;
-    height: 300px;
+    height: 164px;
 }
-
+#firstSectionFooter{
+  height: 130px;
+}
 #imgFooter{
     display: flex;
     width: 50%;
     justify-content: center;
 
-}
-#firstSectionFooter{
-    display: flex;
 }
 #formButton{
     box-shadow: -4px 5px 8px 0px #313738;
@@ -183,7 +177,8 @@ footer{
 }
 #firstSectionFooter h3{
     color: white;
-    margin:10px
+    margin:10px;
+    margin-bottom:0px;
 
 }
 #secondSectionFooter{
@@ -207,10 +202,9 @@ footer{
     margin-left:25px;
 }
 #subtitleFooter{
-    margin: 20px;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+
 }
 #linkFooter{
     display: flex;
