@@ -1,11 +1,14 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
 }
 
-#mainContainer {
-    background-color: #3b4f66;
-    height: 400px;
+#mainContainer{
+    background-color: #ffffff;
+    height:445px;
+    width: 1320px;
 }
 
 #formButton {
@@ -24,7 +27,7 @@
 }
 
 label {
-    color: white;
+    color:black;
 }
 
 #formMain {
@@ -64,22 +67,120 @@ label {
 #formContainer {
     padding-left: 210px;
 }
+@media (max-width: 924px){
+   #formContainer{
+       padding-left: 14px;
+   }
+   #mainContainer{
+    width: 110%;
+   }
+   #mainTitle{
+       text-align: center;
+   }
+   #formDiv p{
+       text-align: start;
+   }
+   #formMain{
+       display: flex;
+       flex-direction: column;
+   }
+   
+}
 
-@media (max-width: 924px) {
-    #formContainer {
-        padding-left: 14px;
+/*----*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:houver {
+    cursor: pointer;
+}
+/* Costomização header */
+
+#logo4safe {
+    max-height: 110px;
+}
+
+.header {
+    background-color: #3b4f66;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.linha {
+    height: 10px;
+    background-color: #9bd46d;
+}
+#secondSectionFooter{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+
+}
+#secondSectionFooter p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+    
+}
+#iconFooter{
+    margin-right: 10px;
+}
+footer{
+    background-color: #3b4f66;
+    height: 60px;
+}
+
+@media (max-width: 450px) {
+    .menu {
+        padding-top: 10px;
     }
-    #mainContainer {
-        width: 110%;
+    #firstSectionFooter{
+        padding-left: 10px;
+
     }
-    #mainTitle {
-        text-align: center;
+    #imgFooter{
+      display: flex;
+      width: auto;
     }
-    #formDiv p {
-        text-align: start;
+    #formDiv{
+      margin: 15px;
     }
-    #formMain {
-        display: flex;
-        flex-direction: column;
+    footer{
+      height: auto;
     }
+    #message{
+      width: 183px;
+      height: 50px;
+    }
+
+    #subtitleFooter h3{
+      font-size: 12pt;
+    }
+    #secondSectionFooter p{
+      font-size: 10pt
+    }
+    #mainContainer{
+        width:auto;
+        padding-left: 10px;
+    }
+    footer{
+        height:90px;
+   }
+   .header{
+       height: 165px;
+   }
 }
