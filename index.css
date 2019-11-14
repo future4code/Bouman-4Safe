@@ -107,14 +107,14 @@
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: center;
-    margin-bottom:60px;
-    margin-top:60px;
+    margin-bottom:50px;
+    margin-top:10px;
   }
   
   #grid-container .seguros {
     align-self: center;
     border: 2px solid #9dd96d;  
-    height: 250px;
+    
     padding-top: 25px;
     max-width: 80%;
     margin: 0 10%;
@@ -150,6 +150,7 @@ footer{
 #firstSectionFooter{
   height: 130px;
 }
+
 #imgFooter{
     display: flex;
     width: 50%;

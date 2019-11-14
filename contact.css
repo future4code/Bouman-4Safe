@@ -127,9 +127,10 @@ a:houver {
 #secondSectionFooter{
     display: flex;
     justify-content: space-between;
-    padding:10px;
-
+    padding: 15px;
+    padding-right: 40px;    
 }
+
 #secondSectionFooter p{
     margin-left: 10px;
     font-weight: bold;
@@ -142,6 +143,10 @@ a:houver {
 footer{
     background-color: #3b4f66;
     height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
 
 @media (max-width: 450px) {

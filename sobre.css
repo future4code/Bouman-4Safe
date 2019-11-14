@@ -29,3 +29,23 @@ h1 {
     display: block;
     text-align: center;
 }
+
+
+footer{
+    background-color: #3b4f66;
+    height: 60px; /*Pode Varia conforme o resto da sua Pagina*/
+  }
+  #secondSectionFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  #iconFooter {
+    margin-right: 10px;
+  @media (max-width: 450px) {
+      footer{
+        height:90px;
+   }
+      #firstSectionFooter{
+        padding-left: 10px;
+    }
+  }
